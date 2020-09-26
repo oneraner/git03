@@ -23,5 +23,12 @@
     }
     document.write('</ul>')
     document.write('</div>')
-    
+      // BMI
+    var BMI = {};
+    mathBMI = function(a, b){
+        var BMI = Math.round((b / ((a / 100) * (a / 100)) * 10)) / 10;
+        return BMI;
+    };
+    console.log(mathBMI(178, 70))
+
 </script>
