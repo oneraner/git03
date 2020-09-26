@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+   <h1 class="d-flex justify-content-center">乘法</h1>
+</body>
+</html>
+<script>
+    // 乘法
+    document.write('<div class ="container">')
+    document.write('<ul class ="table row d-flex flex-column">')
+    for(i = 3; i < 16; i++){
+        for (let j = 1; j < 16; j++){
+        //    console.log(i*j);
+           document.write('<li>' + i * j + '</li>')  
+        }
+    }
+    document.write('</ul>')
+    document.write('</div>')
+    
+</script>
